@@ -6,6 +6,9 @@
     - sudo docker rmi hello-world  // hello-world 이미지 관련 삭제
 
 2. 우분투 설치 : 우분투에서 패키지로 직접 설치하는 방법
+
     - sudo apt-get update   // 패키지 매니저 업데이트
+    - sudo apt-get install docker-engine 도커 설치
+    - sudo apt-get upgrade docker-engin 
     - sudo apt-get install docker.io    // 도커 설치
     - sudo ln -sf /usr/bin/docker.io /usr/local/bin/docker // 실행파일을 링크로 해서 사용
