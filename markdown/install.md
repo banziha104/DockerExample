@@ -12,3 +12,61 @@
     - sudo apt-get upgrade docker-engin 
     - sudo apt-get install docker.io    // 도커 설치
     - sudo ln -sf /usr/bin/docker.io /usr/local/bin/docker // 실행파일을 링크로 해서 사용
+    
+3. EC2 에서 Docker 사용
+    - Configure Instance -> Advanced Details 클릭
+    - 아래 메시지 입력
+    
+    
+```shell
+
+#cloud-config
+
+packages:
+ - curl
+  
+runcmd:
+ - [ sh, -c, "curl https://get.docker.com/ | sh" ]
+ - [ sh, -c, "usermod -aG docker ubuntu" ]
+
+```
+    
+4. Elastic Beanstalk에서 Docker 사용
+
+- 새어플리케이션을 만듬
+- Environment tier : Web Server (인터넷에서 접속할 수 있는 웹 서버)로 만듬 (Worker : 백그라운드 작업 환경)
+- Predefined configuration : 개발 언어 또는 플랫폼 -> Docker 선택
+- Environment Type : 기본 
+    
+5. Docker hub 공개 저장소 이미지 사용
+
+- Dockerrun.aws.json 파일을 통해 공개 저장소에 저장된 이미지를 그대로 사용가능함
+- Nginx 예제
+
+```javascript
+var c = 
+{
+  "AWSEBDockerrunVersion" : "1",
+  "Image" : {
+    "Name" : "nginx:latest",
+    "Update" : "true"
+  },
+  "Ports" : [
+    {
+      "ContainerPort" : "80"
+    }
+  ],
+  "Volumes" :[
+    {
+      "HostDirectory" : "/var/www",
+      "ContainerDirectory" : "/var/www"
+    }
+  ],
+  "Logging" : "/var/log/nginx"
+}
+```
+
+6. Docker Hub 개인 저장소 이미지 사용하기
+
+- sudo docker login 으로 로그인
+- 

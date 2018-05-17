@@ -6,4 +6,3 @@
 - docker diff hello-nginx : 변경된 파일 확인
 - docker inspect hello-nginx : 세부정보 확인
 
-
