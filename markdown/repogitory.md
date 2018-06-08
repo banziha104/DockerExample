@@ -37,4 +37,3 @@ CMD env | grep _TCP = |\
     - --link redis:redis : redis컨테이너를 redis 별칭으로 연결
     - ---name redis_ambassador로 이름을 지정
     - -p 6379:6379 옵션으로 컨테이너의 6379번 포트와 호스트의 6379 연결 하고 외부에 노출
-    
