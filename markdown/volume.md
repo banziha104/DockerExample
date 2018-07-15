@@ -10,4 +10,5 @@
     
 - sudo docker run -i -t --name hello-volume -v /root/data:/data ubuntu /bin/dash
     - 데이터 볼륨 사용
-    - -v <호스트 디렉터리> : <컨테이너 디렉터리>
+    - -v <호스트 디렉터리> : <컨테이너 디렉터리> 
+    
