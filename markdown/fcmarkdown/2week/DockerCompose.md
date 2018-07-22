@@ -9,5 +9,5 @@
 - docker-compose.yml 
 - 어플리케이션을 만드는 서비스를 정의하는 yaml 파일
 
-[Compose1](https://github.com/banziha104/DockerExample/img/2week/compose1.png)
-[Compose2](https://github.com/banziha104/DockerExample/img/2week/compose2.png)
+![Compose1](https://github.com/banziha104/DockerExample/img/2week/compose1.png)
+![Compose2](https://github.com/banziha104/DockerExample/img/2week/compose2.png)

@@ -27,7 +27,7 @@
 
 - fleet
 
-[fleet](https://github.com/banziha104/DockerExample/img/2week/fleet.png)
+![fleet](https://github.com/banziha104/DockerExample/img/2week/fleet.png)
 
 ### 실습
 
