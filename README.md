@@ -45,3 +45,6 @@ CMD ["nginx"]
 EXPOSE 80
 EXPOSE 443
 ```
+
+- 전체 컨테이너 종료 : docker rm -f $(docker ps -a -q)
+- 전체 이미지 제거 : docker rmi $(docker images -q)
