@@ -241,7 +241,7 @@ spec:
 ```
 
 
-- nginx-deploymenet.yaml
+- nginx-deploymenet.yaml : Deployment 만들기
 
 ```yaml
 apiVersion: apps/v1 # for versions before 1.9.0 use apps/v1beta2
@@ -268,6 +268,28 @@ spec:
 ```bash
 kubectl create -f nginx-deployment.yaml
 ```
+
+- nginx-service : Service 만들기
+
+```yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-service
+spec:
+  ports:
+  - port: 8000 # the port that this service should serve on
+    # the container on each pod to connect to, can be a name
+    # (e.g. 'www') or a number (e.g. 80)
+    targetPort: 80
+    protocol: TCP
+  # just like the selector in the deployment,
+  # but this time it identifies the set of pods to load balance
+  # traffic to.
+  selector:
+    app: nginx
+```
+
 
 ### 기타
 
