@@ -1,0 +1,1010 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f38c164b-3c4e-47bc-902c-35d9a1ec1c0b" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileColors">
+    <fileColor scope="Non-Project Files (Material Default)" color="2E3C43" />
+    <fileColor scope="Non-Project Files (Material Darker)" color="323232" />
+    <fileColor scope="Non-Project Files (Material Lighter)" color="eae8e8" />
+    <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="DockerSecurity.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/4week/DockerSecurity.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="-257" />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Microservice.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/4week/Microservice.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="487">
+                <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RESTful.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/4week/RESTful.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="828">
+                <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DevOps.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/4week/DevOps.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="744">
+                <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nginx-pod.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nginx-pod.yaml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="DevOpsTool.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/4week/DevOpsTool.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="341">
+                <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LICENSE" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LICENSE">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="704">
+                <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="command.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/markdown/command.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="217">
+                <caret line="7" selection-start-line="7" selection-end-line="7" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dockerfile.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/markdown/dockerfile.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="310">
+                <caret line="10" selection-start-line="10" selection-end-line="10" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>arg</find>
+      <find>build</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/install.md" />
+        <option value="$PROJECT_DIR$/test.sh" />
+        <option value="$PROJECT_DIR$/dockerSample/test.sh" />
+        <option value="$PROJECT_DIR$/dockerSample/Bash.md" />
+        <option value="$PROJECT_DIR$/dockerSample/bashPlayground.sh" />
+        <option value="$PROJECT_DIR$/Bash.md" />
+        <option value="$PROJECT_DIR$/usage.md" />
+        <option value="$PROJECT_DIR$/dockerSample/item.js" />
+        <option value="$PROJECT_DIR$/markdown/shellScript.md" />
+        <option value="$PROJECT_DIR$/markdown/command.md" />
+        <option value="$PROJECT_DIR$/markdown/dockerfile.md" />
+        <option value="$PROJECT_DIR$/markdown/install.md" />
+        <option value="$PROJECT_DIR$/markdown/GolangServer.md" />
+        <option value="$PROJECT_DIR$/markdown/dockerhub.md" />
+        <option value="$PROJECT_DIR$/dockerSample/Dockerfile" />
+        <option value="$PROJECT_DIR$/markdown/repogitory.md" />
+        <option value="$PROJECT_DIR$/markdown/nginx.md" />
+        <option value="$PROJECT_DIR$/markdown/basic.md" />
+        <option value="$PROJECT_DIR$/markdown/fcmarkdown/1week.md" />
+        <option value="$PROJECT_DIR$/markdown/fcmarkdown/1week/Basic.md" />
+        <option value="$PROJECT_DIR$/markdown/volume.md" />
+        <option value="$PROJECT_DIR$/markdown/fcmarkdown/1week/1week.md" />
+        <option value="$PROJECT_DIR$/markdown/fcmarkdown/1week/Archtecture.md" />
+        <option value="$PROJECT_DIR$/markdown/fcmarkdown/1week/Dockerfiled.md" />
+        <option value="$PROJECT_DIR$/markdown/fcmarkdown/1week/Image.md" />
+        <option value="$PROJECT_DIR$/markdown/fcmarkdown/s.sql" />
+        <option value="$PROJECT_DIR$/markdown/fcmarkdown/1week/Container.md" />
+        <option value="$PROJECT_DIR$/markdown/fcmarkdown/1week/Machine.md" />
+        <option value="$PROJECT_DIR$/markdown/fcmarkdown/2week/Vagrant.md" />
+        <option value="$PROJECT_DIR$/markdown/fcmarkdown/2week/DockerHost.md" />
+        <option value="$PROJECT_DIR$/markdown/fcmarkdown/2week/2week.md" />
+        <option value="$PROJECT_DIR$/markdown/fcmarkdown/1week/Vagrant.md" />
+        <option value="$PROJECT_DIR$/markdown/fcmarkdown/2week/DockerCompose.md" />
+        <option value="$PROJECT_DIR$/markdown/fcmarkdown/2week/DockerHub.md" />
+        <option value="$PROJECT_DIR$/markdown/fcmarkdown/2week/Registry.md" />
+        <option value="$PROJECT_DIR$/markdown/fcmarkdown/2week/DockerCIToolStack.md" />
+        <option value="$PROJECT_DIR$/markdown/fcmarkdown/2week/Github.md" />
+        <option value="$PROJECT_DIR$/markdown/fcmarkdown/3week/DockerInDocker.md" />
+        <option value="$PROJECT_DIR$/markdown/fcmarkdown/3week/MultiStageBuild.md" />
+        <option value="$PROJECT_DIR$/markdown/fcmarkdown/3week/Redis.md" />
+        <option value="$PROJECT_DIR$/markdown/fcmarkdown/3week/Volume.md" />
+        <option value="$PROJECT_DIR$/markdown/fcmarkdown/3week/Network.md" />
+        <option value="$PROJECT_DIR$/markdown/fcmarkdown/3week/Swarm.md" />
+        <option value="$PROJECT_DIR$/markdown/fcmarkdown/3week/Kuberetes.md" />
+        <option value="$PROJECT_DIR$/markdown/fcmarkdown/3week/Monitoring.md" />
+        <option value="$PROJECT_DIR$/markdown/fcmarkdown/4week/DockerSecurity.md" />
+        <option value="$PROJECT_DIR$/markdown/fcmarkdown/4week/Microservice.md" />
+        <option value="$PROJECT_DIR$/markdown/fcmarkdown/4week/RESTful.md" />
+        <option value="$PROJECT_DIR$/markdown/fcmarkdown/4week/DevOps.md" />
+        <option value="$PROJECT_DIR$/markdown/fcmarkdown/4week/DevOpsTool.md" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <exe-path />
+    <config-path />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="801" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DockerExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DockerExample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DockerExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DockerExample" type="462c0819:PsiDirectoryNode" />
+              <item name="markdown" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DockerExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DockerExample" type="462c0819:PsiDirectoryNode" />
+              <item name="markdown" type="462c0819:PsiDirectoryNode" />
+              <item name="fcmarkdown" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DockerExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DockerExample" type="462c0819:PsiDirectoryNode" />
+              <item name="markdown" type="462c0819:PsiDirectoryNode" />
+              <item name="fcmarkdown" type="462c0819:PsiDirectoryNode" />
+              <item name="3week" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DockerExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DockerExample" type="462c0819:PsiDirectoryNode" />
+              <item name="markdown" type="462c0819:PsiDirectoryNode" />
+              <item name="fcmarkdown" type="462c0819:PsiDirectoryNode" />
+              <item name="4week" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DockerExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DockerExample" type="462c0819:PsiDirectoryNode" />
+              <item name="skaffoldSample" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/iyeongjun/Project/WbPro/DockerExample/markdown/fcmarkdown/2week/Vagrant.md&#10;1ww&#9;null&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="6.11.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
+    <property name="settings.editor.selected.configurable" value="power.mode.ii" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/markdown/fcmarkdown/2week" />
+      <recent name="$PROJECT_DIR$/markdown/fcmarkdown/1week" />
+      <recent name="$PROJECT_DIR$/markdown" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/dockerSample" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/skaffoldSample" />
+      <recent name="$PROJECT_DIR$/img/2week" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="bashPlayground.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
+      <module name="DockerExample" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dockerSample" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dockerSample/bashPlayground.sh" />
+      <option name="PARAMETERS" value="" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f38c164b-3c4e-47bc-902c-35d9a1ec1c0b" name="Default" comment="" />
+      <created>1519788492825</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1519788492825</updated>
+      <workItem from="1519788495794" duration="3560000" />
+      <workItem from="1519795605613" duration="2189000" />
+      <workItem from="1520161109487" duration="951000" />
+      <workItem from="1520327183401" duration="162000" />
+      <workItem from="1526358826470" duration="6566000" />
+      <workItem from="1526454704560" duration="1596000" />
+      <workItem from="1526537856720" duration="6939000" />
+      <workItem from="1526624274703" duration="1351000" />
+      <workItem from="1526691897920" duration="193000" />
+      <workItem from="1526708737199" duration="130000" />
+      <workItem from="1526711711050" duration="1472000" />
+      <workItem from="1526816509438" duration="815000" />
+      <workItem from="1527071951092" duration="30000" />
+      <workItem from="1528368387421" duration="1093000" />
+      <workItem from="1528461958857" duration="97000" />
+      <workItem from="1530347402159" duration="64000" />
+      <workItem from="1531627741745" duration="12464000" />
+      <workItem from="1531668275459" duration="215000" />
+      <workItem from="1532232009051" duration="13633000" />
+      <workItem from="1532837375832" duration="13289000" />
+      <workItem from="1533360352441" duration="13000" />
+      <workItem from="1533442727212" duration="11578000" />
+      <workItem from="1534488574575" duration="221000" />
+      <workItem from="1534568203200" duration="320000" />
+    </task>
+    <task id="LOCAL-00001" summary="add Install">
+      <created>1519792605394</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1519792605394</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add Install &amp; Usage">
+      <created>1519794923346</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1519794923346</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add Install &amp; Usage">
+      <created>1519795464650</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1519795464650</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add Install &amp; Usage">
+      <created>1519795489073</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1519795489073</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add Install &amp; Usage">
+      <created>1519795811799</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1519795811799</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add Install &amp; Usage">
+      <created>1520161233674</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1520161233674</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add Markdown Spliting">
+      <created>1526393534410</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1526393534410</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add Markdown Spliting">
+      <created>1526454776091</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1526454776091</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add Markdown Spliting">
+      <created>1526552258409</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1526552258409</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add DockderHub">
+      <created>1526708753980</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1526708753980</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add DockderHub">
+      <created>1528461963842</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1528461963842</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add DockderHub">
+      <created>1531629963242</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1531629963242</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add DockderHub">
+      <created>1531668284140</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1531668284140</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add Dockder-Machine &amp; Vagrant &amp;">
+      <created>1532236180169</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1532236180169</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add Dockder-Machine &amp; Vagrant &amp;">
+      <created>1532240245715</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1532240245715</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add Dockder-Machine &amp; Vagrant &amp;">
+      <created>1532240297779</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1532240297779</updated>
+    </task>
+    <task id="LOCAL-00017" summary="add Dockder-Machine &amp; Vagrant 🐳">
+      <created>1532838550905</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1532838550905</updated>
+    </task>
+    <task id="LOCAL-00018" summary="add Docker Swarm 🐳 &amp; Kubernetes 🕸">
+      <created>1533444207222</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1533444207222</updated>
+    </task>
+    <task id="LOCAL-00019" summary="add Docker Swarm 🐳 &amp; Kubernetes 🕸">
+      <created>1533450170052</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1533450170052</updated>
+    </task>
+    <task id="LOCAL-00020" summary="add Docker Swarm 🐳 &amp; Kubernetes 🕸">
+      <created>1534488624235</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1534488624235</updated>
+    </task>
+    <task id="LOCAL-00021" summary="add Skaffold">
+      <created>1534568418491</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1534568418491</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="78941000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info id="DB Browser" order="2" />
+      <window_info anchor="bottom" id="DB Execution Console" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3298647" />
+      <window_info anchor="right" id="Mongo Explorer" order="3" weight="0.32928476" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.40814197" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24175824" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add Install" />
+    <MESSAGE value="add Install &amp; Usage" />
+    <MESSAGE value="add Markdown Spliting" />
+    <MESSAGE value="add DockderHub" />
+    <MESSAGE value="add Dockder-Machine &amp; Vagrant &amp;" />
+    <MESSAGE value="add Dockder-Machine &amp; Vagrant " />
+    <MESSAGE value="add Dockder-Machine &amp; Vagrant " />
+    <MESSAGE value="add Docker Swarm  &amp; Kubernetes " />
+    <MESSAGE value="add Docker Swarm  &amp; Kubernetes " />
+    <MESSAGE value="add Skaffold" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Skaffold" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/usage.md" />
+    <entry file="file://$PROJECT_DIR$/basic.md" />
+    <entry file="file://$PROJECT_DIR$/install.md" />
+    <entry file="file://$PROJECT_DIR$/usage.md" />
+    <entry file="file://$PROJECT_DIR$/Bash.md" />
+    <entry file="file://$PROJECT_DIR$/dockerSample/item.js" />
+    <entry file="file://$PROJECT_DIR$/markdown/dockerfile" />
+    <entry file="file://$PROJECT_DIR$/dockerSample/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dockerSample/bashPlayground.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="9" selection-start-line="9" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/basic.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="4432">
+            <caret line="143" selection-start-line="143" selection-end-line="143" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/dockerhub.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="124">
+            <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/GolangServer.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="314">
+            <caret line="12" selection-start-line="12" selection-end-line="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/nginx.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="217">
+            <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/install.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="115">
+            <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/repogitory.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="828">
+            <caret line="38" column="62" selection-start-line="38" selection-start-column="62" selection-end-line="38" selection-end-column="62" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/volume.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="403">
+            <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/shellScript.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="496">
+            <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/s.sql" />
+    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/2week/2week.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="1116">
+            <caret line="36" selection-start-line="36" selection-end-line="36" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/1week/Vagrant.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/2week/Registry.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="527">
+            <caret line="17" selection-start-line="17" selection-end-line="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/2week/Github.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="155">
+            <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/2week/DockerInDocker.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="11" lean-forward="true" selection-start-line="10" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/1week/1week.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="-1108">
+            <caret line="17" selection-start-line="17" selection-end-line="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/1week/Archtecture.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="-612">
+            <caret line="3" selection-start-line="3" selection-end-line="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/1week/Container.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="341">
+            <caret line="11" selection-start-line="11" selection-end-line="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/1week/Basic.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="248">
+            <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/1week/Dockerfiled.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="132">
+            <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/1week/Image.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="101">
+            <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/1week/DockerHost.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="279">
+            <caret line="9" selection-end-line="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/1week/Machine.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="-192">
+            <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/2week/DockerCIToolStack.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="279">
+            <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/2week/DockerHub.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="434">
+            <caret line="14" selection-start-line="14" selection-end-line="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/3week/MultiStageBuild.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="775">
+            <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/2week/Redis.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="1612">
+            <caret line="52" column="45" selection-start-line="52" selection-start-column="45" selection-end-line="52" selection-end-column="45" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/3week/Volume.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="806">
+            <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/3week/Network.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="87" column="99" selection-start-line="87" selection-start-column="99" selection-end-line="87" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/2week/DockerCompose.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="465">
+            <caret line="15" selection-start-line="14" selection-end-line="15" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/3week/Swarm.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="3782">
+            <caret line="122" selection-start-line="122" selection-end-line="122" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/3week/Kuberetes.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="8401">
+            <caret line="271" column="29" selection-start-line="271" selection-start-column="29" selection-end-line="271" selection-end-column="29" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/3week/Monitoring.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="1829">
+            <caret line="59" column="41" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/command.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="217">
+            <caret line="7" selection-start-line="7" selection-end-line="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/dockerfile.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="310">
+            <caret line="10" selection-start-line="10" selection-end-line="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/4week/RESTful.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="828">
+            <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/4week/Microservice.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="487">
+            <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/4week/DockerSecurity.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="-257" />
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/4week/DevOpsTool.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="341">
+            <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/4week/DevOps.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="744">
+            <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nginx-pod.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="704">
+            <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
