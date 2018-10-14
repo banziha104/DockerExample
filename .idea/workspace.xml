@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f38c164b-3c4e-47bc-902c-35d9a1ec1c0b" name="Default" comment="" />
+    <list default="true" id="f38c164b-3c4e-47bc-902c-35d9a1ec1c0b" name="Default" comment="add Skaffold">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -15,10 +17,11 @@
     <session id="-684318712">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -271,29 +274,6 @@
               <item name="DockerExample" type="b2602c69:ProjectViewProjectNode" />
               <item name="DockerExample" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="DockerExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DockerExample" type="462c0819:PsiDirectoryNode" />
-              <item name="dockerSample" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DockerExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DockerExample" type="462c0819:PsiDirectoryNode" />
-              <item name="markdown" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DockerExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DockerExample" type="462c0819:PsiDirectoryNode" />
-              <item name="markdown" type="462c0819:PsiDirectoryNode" />
-              <item name="fcmarkdown" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DockerExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DockerExample" type="462c0819:PsiDirectoryNode" />
-              <item name="markdown" type="462c0819:PsiDirectoryNode" />
-              <item name="fcmarkdown" type="462c0819:PsiDirectoryNode" />
-              <item name="4week" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -381,7 +361,8 @@
       <workItem from="1534488574575" duration="221000" />
       <workItem from="1534568203200" duration="320000" />
       <workItem from="1537253932679" duration="210000" />
-      <workItem from="1537254505202" duration="273000" />
+      <workItem from="1537254505202" duration="306000" />
+      <workItem from="1537256149492" duration="94000" />
     </task>
     <task id="LOCAL-00001" summary="add Install">
       <created>1519792605394</created>
@@ -534,12 +515,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79424000" />
+    <option name="totallyTimeSpent" value="79551000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="3008" height="1692" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20465273" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20465273" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -553,7 +534,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.40722293" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.40722293" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -663,17 +644,17 @@
     <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/3week/Kuberetes.md" />
     <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/3week/Monitoring.md" />
     <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/4week/DockerSecurity.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor>
             <markdownNavigatorState />
           </second_editor>
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -711,17 +692,17 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/4week/DevOpsTool.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor>
             <markdownNavigatorState />
           </second_editor>
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
         </state>
       </provider>
     </entry>
