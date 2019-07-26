@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod # 쿠버네티스의 리소스를 지정하는 유형
+metadata:
+  name: simple-echo #리소스의 이름
+spec: #리소스를 정의하기 위한 속성
+  containers:
+    - name: nginx
+      image: gihyodocker/nginx:latest
+      env:
+      - name: BACKEND_HOST
+        value: localhost:8080
+      ports:
+      - containerPort: 80
+    - name: echo
+      image: gihyodocker/echo:latest
+      ports:
+      - containerPort: 8080
