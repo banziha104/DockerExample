@@ -222,3 +222,139 @@ spec:
 ```bash
 kubectl apply -f simple-deply
 ```
+
+<br>
+
+# 서비스
+
+> 클러스트 안에서 파드의 집합에 대한 경로나 서비스 디스커버리를 제공하는 리소스
+
+- 서비스는 쿠버네티스 클러스터 안에서만 접근할 수 있다.
+- 서비스의 네임 레졸루션은 서비스명.네임스페이스명.svc.local로 연결됨
+- ClusterIP : 쿠버네티스 클러스터의 내부 IP 주소를 공개할 수 있으며, 이를 이영해 어떤 파드에서 다른 파드 그룹으로 접근이 가능함. 단, 외부로부터는 접근할 수 없음
+- NodePort: 클러스터 외부에서 접근할수 있는 서비스.
+
+```yaml
+
+# 클러스터 IP
+apiVersion: v1
+kind: Service
+metadata:
+  name: echo
+spec:
+  selector:
+    app: echo
+    release: summer
+  ports:
+    - name: http
+      port: 8080 
+
+```
+
+
+- 서비스 생성
+
+```bash
+kubectl apply -f simple-service.yml
+```
+
+<br>
+
+# 인그레스
+
+> NodePort는 L4 레벨까지만 가능, 인그레스는 외부에 대한 노출과 가상 호스트 및 경로 기반. L7 레벨의 제어가 가능
+
+
+- 클러스터 외부에서 온 HTTP 요청을 서비스로 라이팅을 하기 위한 nginx_ingress_controller 설치
+
+```bash
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/nginx-0.16.2/deploy/mandatory.yaml
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/nginx-0.16.2/deploy/provider/cloud-generic.yaml
+```
+
+<br>
+
+- 설치 확인
+
+```bash
+kubectl -n ingress-nginx get service,pod
+```
+
+<br>
+
+- 서비스 등록
+
+```bash
+# 클러스터 IP
+apiVersion: v1
+kind: Service
+metadata:
+  name: echo
+spec:
+  selector:
+    app: echo
+    release: summer
+  ports:
+    - name: http
+      port: 8080 
+```
+
+<br>
+
+- 인그레스 파일 
+
+```bash
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name: echo
+spec:
+  rules:
+    - host: ch05.gihyo.local
+      http:
+        paths:
+          - backend:
+              serviceName: echo
+              servicePort: 80
+``` 
+
+
+<br>
+
+# freshpod
+
+> 컨테이미지가 업데이트됐는지를 탐지해 파드를 자동으로 배포해줌
+
+- 배포될 파일의 이미지 정책 수정
+
+```bash
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: echo
+  labels:
+    app: echo
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: echo
+  template:
+    metadata:
+      labels:
+        app: echo
+    spec:
+      containers:
+      - name: nginx
+        image: gihyodocker/nginx:latest
+        env:
+          - name: BACKEND_HOST
+            value: localhost:8080
+        ports:
+          - containerPort: 80
+      - name: echo
+        image: gihyodocker/echo:latest
+        imagePullPolicy: IfNotPresent # IfNotPresent로 설정해야 작동함
+        ports:
+          - containerPort: 8080
+```

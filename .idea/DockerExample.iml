@@ -8,5 +8,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="bnids-nvr-server" />
+    <orderEntry type="module" module-name="bnids-noti-server" />
+    <orderEntry type="module" module-name="local-server-ui" />
   </component>
 </module>

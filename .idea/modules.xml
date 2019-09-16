@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/DockerExample.iml" filepath="$PROJECT_DIR$/.idea/DockerExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../bnids/bnids-noti-server/.idea/bnids-noti-server.iml" filepath="$PROJECT_DIR$/../../bnids/bnids-noti-server/.idea/bnids-noti-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../bnids/bnids-nvr-server/.idea/bnids-nvr-server.iml" filepath="$PROJECT_DIR$/../../bnids/bnids-nvr-server/.idea/bnids-nvr-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../bnids/local-server-ui/.idea/local-server-ui.iml" filepath="$PROJECT_DIR$/../../bnids/local-server-ui/.idea/local-server-ui.iml" />
     </modules>
   </component>
 </project>

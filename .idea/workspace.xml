@@ -1,10 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f38c164b-3c4e-47bc-902c-35d9a1ec1c0b" name="Default" comment="add Kubernetes Basic" />
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
+    <list default="true" id="f38c164b-3c4e-47bc-902c-35d9a1ec1c0b" name="Default" comment="add Kubernetes Basic">
+      <change afterPath="$PROJECT_DIR$/markdown/k8s/Skafold.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/markdown/k8s/simple-ingress.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/markdown/k8s/simple-service-nodeport.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/markdown/k8s/simple-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bnids/local-server-ui/config/env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bnids/local-server-ui/config/jest/cssTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bnids/local-server-ui/config/jest/fileTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bnids/local-server-ui/config/modules.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bnids/local-server-ui/config/paths.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bnids/local-server-ui/config/pnpTs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bnids/local-server-ui/config/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bnids/local-server-ui/config/webpackDevServer.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DockerExample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DockerExample.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/k8s/Basic.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/k8s/Basic.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bnids/bnids-noti-server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../bnids/bnids-noti-server/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bnids/bnids-nvr-server/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../../bnids/bnids-nvr-server/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bnids/bnids-nvr-server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../bnids/bnids-nvr-server/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bnids/bnids-nvr-server/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../bnids/bnids-nvr-server/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bnids/bnids-nvr-server/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/../../bnids/bnids-nvr-server/node_modules/.yarn-integrity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bnids/bnids-nvr-server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../bnids/bnids-nvr-server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bnids/bnids-nvr-server/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../bnids/bnids-nvr-server/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bnids/local-server-ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../bnids/local-server-ui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bnids/local-server-ui/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../bnids/local-server-ui/yarn.lock" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,121 +41,6 @@
     <fileColor scope="Non-Project Files (Material Lighter)" color="eae8e8" />
     <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/1week/Vagrant.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/markdown/k8s/Install.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="252">
-                <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/markdown/k8s/Basic.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="155">
-                <caret line="198" column="15" lean-forward="true" selection-start-line="198" selection-start-column="15" selection-end-line="198" selection-end-column="15" />
-                <folding>
-                  <element signature="e#319#373#1" expanded="true" />
-                  <element signature="e#318#372#1" expanded="true" />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/markdown/k8s/simple-deployment.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="746">
-              <caret line="27" column="31" lean-forward="true" selection-end-line="27" selection-end-column="31" />
-              <folding>
-                <element signature="e#326#382#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/markdown/k8s/simple-replicaset.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="27" selection-end-column="31" />
-              <folding>
-                <element signature="e#319#373#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/markdown/k8s/simple-pod.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/1week/1week.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/1week/Archtecture.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/1week/Container.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/1week/Image.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -139,71 +48,8 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>arg</find>
-      <find>build</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/markdown/shellScript.md" />
-        <option value="$PROJECT_DIR$/markdown/command.md" />
-        <option value="$PROJECT_DIR$/markdown/dockerfile.md" />
-        <option value="$PROJECT_DIR$/markdown/install.md" />
-        <option value="$PROJECT_DIR$/markdown/GolangServer.md" />
-        <option value="$PROJECT_DIR$/markdown/dockerhub.md" />
-        <option value="$PROJECT_DIR$/dockerSample/Dockerfile" />
-        <option value="$PROJECT_DIR$/markdown/repogitory.md" />
-        <option value="$PROJECT_DIR$/markdown/nginx.md" />
-        <option value="$PROJECT_DIR$/markdown/basic.md" />
-        <option value="$PROJECT_DIR$/markdown/fcmarkdown/1week.md" />
-        <option value="$PROJECT_DIR$/markdown/fcmarkdown/1week/Basic.md" />
-        <option value="$PROJECT_DIR$/markdown/fcmarkdown/1week/1week.md" />
-        <option value="$PROJECT_DIR$/markdown/fcmarkdown/1week/Archtecture.md" />
-        <option value="$PROJECT_DIR$/markdown/fcmarkdown/1week/Dockerfiled.md" />
-        <option value="$PROJECT_DIR$/markdown/fcmarkdown/1week/Image.md" />
-        <option value="$PROJECT_DIR$/markdown/fcmarkdown/s.sql" />
-        <option value="$PROJECT_DIR$/markdown/fcmarkdown/1week/Container.md" />
-        <option value="$PROJECT_DIR$/markdown/fcmarkdown/1week/Machine.md" />
-        <option value="$PROJECT_DIR$/markdown/fcmarkdown/2week/Vagrant.md" />
-        <option value="$PROJECT_DIR$/markdown/fcmarkdown/2week/DockerHost.md" />
-        <option value="$PROJECT_DIR$/markdown/fcmarkdown/2week/2week.md" />
-        <option value="$PROJECT_DIR$/markdown/fcmarkdown/1week/Vagrant.md" />
-        <option value="$PROJECT_DIR$/markdown/fcmarkdown/2week/DockerCompose.md" />
-        <option value="$PROJECT_DIR$/markdown/fcmarkdown/2week/DockerHub.md" />
-        <option value="$PROJECT_DIR$/markdown/fcmarkdown/2week/Registry.md" />
-        <option value="$PROJECT_DIR$/markdown/fcmarkdown/2week/DockerCIToolStack.md" />
-        <option value="$PROJECT_DIR$/markdown/fcmarkdown/2week/Github.md" />
-        <option value="$PROJECT_DIR$/markdown/fcmarkdown/3week/DockerInDocker.md" />
-        <option value="$PROJECT_DIR$/markdown/fcmarkdown/3week/MultiStageBuild.md" />
-        <option value="$PROJECT_DIR$/markdown/fcmarkdown/3week/Redis.md" />
-        <option value="$PROJECT_DIR$/markdown/fcmarkdown/3week/Volume.md" />
-        <option value="$PROJECT_DIR$/markdown/fcmarkdown/3week/Network.md" />
-        <option value="$PROJECT_DIR$/markdown/fcmarkdown/3week/Swarm.md" />
-        <option value="$PROJECT_DIR$/markdown/fcmarkdown/3week/Kuberetes.md" />
-        <option value="$PROJECT_DIR$/markdown/fcmarkdown/3week/Monitoring.md" />
-        <option value="$PROJECT_DIR$/markdown/fcmarkdown/4week/DockerSecurity.md" />
-        <option value="$PROJECT_DIR$/markdown/fcmarkdown/4week/Microservice.md" />
-        <option value="$PROJECT_DIR$/markdown/fcmarkdown/4week/RESTful.md" />
-        <option value="$PROJECT_DIR$/markdown/fcmarkdown/4week/DevOps.md" />
-        <option value="$PROJECT_DIR$/markdown/fcmarkdown/4week/DevOpsTool.md" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/markdown/volume.md" />
-        <option value="$PROJECT_DIR$/markdown/kubernates/basic.md" />
-        <option value="$PROJECT_DIR$/markdown/kubernates/Basic.md" />
-        <option value="$PROJECT_DIR$/markdown/kubernates/simple-pod.yml" />
-        <option value="$PROJECT_DIR$/markdown/kubernates/simple-pod.yaml" />
-        <option value="$PROJECT_DIR$/markdown/k8s/simple-pod.yaml" />
-        <option value="$PROJECT_DIR$/markdown/k8s/simple-replicaset.yaml" />
-        <option value="$PROJECT_DIR$/markdown/k8s/simple-deployment.yaml" />
-        <option value="$PROJECT_DIR$/markdown/k8s/Basic.md" />
-      </list>
-    </option>
   </component>
   <component name="JsBowerSettings">
     <node-interpreter value="project" />
@@ -217,75 +63,8 @@
     <other-services-enabled>false</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="2560" />
-    <option name="height" value="1440" />
-  </component>
+  <component name="ProjectId" id="1Q50kqQMuNUpZI87pzNRKFUQvlJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="DockerExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DockerExample" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DockerExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DockerExample" type="462c0819:PsiDirectoryNode" />
-              <item name="markdown" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DockerExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DockerExample" type="462c0819:PsiDirectoryNode" />
-              <item name="markdown" type="462c0819:PsiDirectoryNode" />
-              <item name="fcmarkdown" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DockerExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DockerExample" type="462c0819:PsiDirectoryNode" />
-              <item name="markdown" type="462c0819:PsiDirectoryNode" />
-              <item name="fcmarkdown" type="462c0819:PsiDirectoryNode" />
-              <item name="1week" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DockerExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DockerExample" type="462c0819:PsiDirectoryNode" />
-              <item name="markdown" type="462c0819:PsiDirectoryNode" />
-              <item name="fcmarkdown" type="462c0819:PsiDirectoryNode" />
-              <item name="2week" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DockerExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DockerExample" type="462c0819:PsiDirectoryNode" />
-              <item name="markdown" type="462c0819:PsiDirectoryNode" />
-              <item name="fcmarkdown" type="462c0819:PsiDirectoryNode" />
-              <item name="3week" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DockerExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DockerExample" type="462c0819:PsiDirectoryNode" />
-              <item name="markdown" type="462c0819:PsiDirectoryNode" />
-              <item name="fcmarkdown" type="462c0819:PsiDirectoryNode" />
-              <item name="4week" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DockerExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DockerExample" type="462c0819:PsiDirectoryNode" />
-              <item name="markdown" type="462c0819:PsiDirectoryNode" />
-              <item name="k8s" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/iyeongjun/Project/WbPro/DockerExample/markdown/fcmarkdown/2week/Vagrant.md&#10;1ww&#9;null&#9;null" />
@@ -294,7 +73,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -326,10 +105,12 @@
       <module name="DockerExample" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="PROJECT_INTERPRETER" value="false" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dockerSample" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dockerSample/bashPlayground.sh" />
       <option name="PARAMETERS" value="" />
+      <method v="2" />
     </configuration>
   </component>
   <component name="SvnConfiguration">
@@ -372,6 +153,15 @@
       <workItem from="1564031429238" duration="10331000" />
       <workItem from="1564125038925" duration="479000" />
       <workItem from="1564125894261" duration="1515000" />
+      <workItem from="1564391608268" duration="960000" />
+      <workItem from="1567045301571" duration="1993000" />
+      <workItem from="1567048277557" duration="4544000" />
+      <workItem from="1567131589194" duration="3753000" />
+      <workItem from="1567385741325" duration="2221000" />
+      <workItem from="1567994877244" duration="563000" />
+      <workItem from="1568093734663" duration="641000" />
+      <workItem from="1568166023459" duration="1242000" />
+      <workItem from="1568600663216" duration="457000" />
     </task>
     <task id="LOCAL-00001" summary="add Install">
       <created>1519792605394</created>
@@ -534,41 +324,31 @@
       <option name="project" value="LOCAL" />
       <updated>1564132493307</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="add Kubernetes Basic">
+      <created>1564391737446</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1564391737446</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91876000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22362868" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="DB Browser" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3298647" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="DB Execution Console" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.39419088" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="GraphQL" order="12" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Mongo Explorer" order="3" weight="0.32928476" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add Install" />
@@ -583,316 +363,6 @@
     <MESSAGE value="add Skaffold" />
     <MESSAGE value="add Kubernetes Basic" />
     <option name="LAST_COMMIT_MESSAGE" value="add Kubernetes Basic" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/markdown/dockerfile" />
-    <entry file="file://$PROJECT_DIR$/dockerSample/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dockerSample/bashPlayground.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="9" selection-start-line="9" selection-end-line="15" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/basic.md" />
-    <entry file="file://$PROJECT_DIR$/markdown/shellScript.md" />
-    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/s.sql" />
-    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/2week/2week.md" />
-    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/2week/Registry.md" />
-    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/2week/Github.md" />
-    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/2week/DockerInDocker.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="11" lean-forward="true" selection-start-line="10" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/1week/Basic.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/1week/Dockerfiled.md" />
-    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/1week/DockerHost.md" />
-    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/1week/Machine.md" />
-    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/2week/DockerCIToolStack.md" />
-    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/2week/DockerHub.md" />
-    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/2week/Redis.md" />
-    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/3week/Volume.md" />
-    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/3week/Network.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="87" column="99" selection-start-line="87" selection-start-column="99" selection-end-line="87" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/2week/DockerCompose.md" />
-    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/4week/DockerSecurity.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/4week/Microservice.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/4week/RESTful.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/4week/DevOps.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nginx-pod.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/4week/DevOpsTool.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/command.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/dockerfile.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/dockerhub.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/GolangServer.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/install.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/nginx.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/repogitory.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/volume.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/3week/Kuberetes.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/3week/Monitoring.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/3week/MultiStageBuild.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/3week/Swarm.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/1week/Vagrant.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/k8s/Install.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="252">
-            <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/1week/1week.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/1week/Archtecture.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/1week/Container.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/fcmarkdown/1week/Image.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/k8s/simple-pod.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/k8s/simple-replicaset.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="27" selection-end-column="31" />
-          <folding>
-            <element signature="e#319#373#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/k8s/simple-deployment.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="746">
-          <caret line="27" column="31" lean-forward="true" selection-end-line="27" selection-end-column="31" />
-          <folding>
-            <element signature="e#326#382#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markdown/k8s/Basic.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="155">
-            <caret line="198" column="15" lean-forward="true" selection-start-line="198" selection-start-column="15" selection-end-line="198" selection-end-column="15" />
-            <folding>
-              <element signature="e#319#373#1" expanded="true" />
-              <element signature="e#318#372#1" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
