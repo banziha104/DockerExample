@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f38c164b-3c4e-47bc-902c-35d9a1ec1c0b" name="Default" comment="add Kubernetes Basic">
-      <change afterPath="$PROJECT_DIR$/markdown/ink8s/Kubernetes.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/markdown/ink8s/k8s_components.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -140,7 +139,8 @@
       <workItem from="1588398088938" duration="12827000" />
       <workItem from="1602317468636" duration="788000" />
       <workItem from="1602398286212" duration="7000" />
-      <workItem from="1602398326193" duration="5395000" />
+      <workItem from="1602398326193" duration="6053000" />
+      <workItem from="1602506473072" duration="1399000" />
     </task>
     <task id="LOCAL-00001" summary="add Install">
       <created>1519792605394</created>
@@ -310,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564391737446</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="add Kubernetes Basic">
+      <created>1602428068441</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1602428068441</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,11 +350,19 @@
     <option name="LAST_COMMIT_MESSAGE" value="add Kubernetes Basic" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1512" y="206" key="CommitChangelistDialog2" timestamp="1602428068309">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1512" y="206" key="CommitChangelistDialog2/2560.-519.1440.2560/-2560.0.2560.1440/0.0.2560.1440@0.0.2560.1440" timestamp="1602428068309" />
     <state x="406" y="517" key="SettingsEditor" timestamp="1602417117096">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="406" y="517" key="SettingsEditor/2560.-519.1440.2560/-2560.0.2560.1440/0.0.2560.1440@0.0.2560.1440" timestamp="1602417117096" />
     <state x="2789" y="400" key="SettingsEditor/2560.-519.1440.2560/-2560.0.2560.1440/0.0.2560.1440@2560.-519.1440.2560" timestamp="1602317873722" />
+    <state x="1569" y="456" key="Vcs.Push.Dialog.v2" timestamp="1602428344368">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1569" y="456" key="Vcs.Push.Dialog.v2/2560.-519.1440.2560/-2560.0.2560.1440/0.0.2560.1440@0.0.2560.1440" timestamp="1602428344368" />
     <state x="2560" y="-519" width="1440" height="2560" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1602317844407">
       <screen x="2560" y="-519" width="1440" height="2560" />
     </state>
