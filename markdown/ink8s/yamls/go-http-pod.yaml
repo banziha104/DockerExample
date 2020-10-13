@@ -1,0 +1,13 @@
+apiVersion: batch/v1
+kind: Pod
+metadata:
+  name: go-http
+spec:
+  template:
+    # This is the pod template
+    spec:
+      containers:
+        - name: go-http
+          image: dldudwnsdl/http-go
+          ports:
+            - containerPort: 8080
