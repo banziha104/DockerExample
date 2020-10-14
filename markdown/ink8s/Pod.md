@@ -1,17 +1,3 @@
-# 쿠버네티스 
-
-- 주요 컴포넌트  확인
-
-```shell script
-kubectl get pods -n kube-system 
-cd /etc/kubernetes/manifests/ # system과 관련된 yaml 설정 파일 저장 
-```
-
-- etcd: key-value 데이터 베이스
-
-
-<br>
-
 ## Pod
 
 - 컨테이너의 공통 배포된 그룹이며 쿠버네티스의 기본 빌딩 블록을 대표
@@ -48,6 +34,9 @@ spec:
     - 컨테이너가 살아있는지 판단하고 다시 시작하는 기능
     - 버그가 생겨도 높은 가용성을 보임
     - 컨테이너의 상태를 스스로 판단하여 교착 상태에 빠진 컨테이너를 재시작
+    - 리눅스 요청은 0인 경우 정상, 그 외는 비정상
+    - http는 200~400미만 정상, 그 외는 재시작
+    - startupProbe가 없는 경우, 풀링 중에 죽일 수 있음. 
     ```yaml
   apiVersion: v1
   kind: Pod
@@ -72,6 +61,7 @@ spec:
         periodSeconds: 3
     ```
 - Readiness Probe
+    - 서비스가 실행가능한지 확인
     - 포드가 준비된 상태에 있는지 확인하고 정상 서비스를 시작하는 기능
     - 포드가 적절하게 준비되지 않는 경우 로드밸런싱을 하지 않음
     ```yaml
@@ -101,3 +91,24 @@ spec:
 - Statup Probe
     - 어플리케이션의 시작 시기를 확인하여 가용성을 높이는 기능
     - Liveness와 Readiness의 기능을 비활성화
+    ```yaml
+    ports:
+    - name: liveness-port
+      containerPort: 8080
+      hostPort: 8080
+    
+    livenessProbe:
+      httpGet:
+        path: /healthz
+        port: liveness-port
+      failureThreshold: 1
+      periodSeconds: 10
+    
+    startupProbe:
+      httpGet:
+        path: /healthz
+        port: liveness-port
+      failureThreshold: 30 # 30번 검사
+      periodSeconds: 10 # 10초마다, 즉 300초 후에도 포드가 정상 동작하지 않는 경우 종료
+    ```
+
