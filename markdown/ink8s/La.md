@@ -46,4 +46,9 @@ kubectl label pod http-go-v2 rel- # 삭제
 
 ```shell script
 kubectl get pod --show-label -l 'env!=test,rel=beta'
+kubectl get -L creation_method
 ```
+
+<br>
+
+

@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f38c164b-3c4e-47bc-902c-35d9a1ec1c0b" name="Default" comment="add Kubernetes Basic₩">
-      <change afterPath="$PROJECT_DIR$/markdown/ink8s/La.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/markdown/ink8s/k8s_components.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/ink8s/Pod.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/ink8s/La.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/ink8s/La.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +141,7 @@
       <workItem from="1602398286212" duration="7000" />
       <workItem from="1602398326193" duration="6053000" />
       <workItem from="1602506473072" duration="3105000" />
-      <workItem from="1602592628758" duration="6240000" />
+      <workItem from="1602592628758" duration="6689000" />
     </task>
     <task id="LOCAL-00001" summary="add Install">
       <created>1519792605394</created>
@@ -333,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602600694082</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="add Kubernetes Basic₩">
+      <created>1602683958970</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1602683958970</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,10 +373,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="add Kubernetes Basic₩" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1512" y="206" key="CommitChangelistDialog2" timestamp="1602600693941">
+    <state x="1512" y="206" key="CommitChangelistDialog2" timestamp="1602683958884">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1512" y="206" key="CommitChangelistDialog2/-2560.0.2560.1440/2560.-519.1440.2560/0.0.2560.1440@0.0.2560.1440" timestamp="1602600693941" />
+    <state x="1512" y="206" key="CommitChangelistDialog2/-2560.0.2560.1440/2560.-519.1440.2560/0.0.2560.1440@0.0.2560.1440" timestamp="1602683958884" />
     <state x="1512" y="206" key="CommitChangelistDialog2/2560.-519.1440.2560/-2560.0.2560.1440/0.0.2560.1440@0.0.2560.1440" timestamp="1602428068309" />
     <state x="406" y="517" key="SettingsEditor" timestamp="1602512432323">
       <screen x="0" y="0" width="2560" height="1440" />
@@ -378,10 +384,10 @@
     <state x="406" y="517" key="SettingsEditor/-2560.0.2560.1440/2560.-519.1440.2560/0.0.2560.1440@0.0.2560.1440" timestamp="1602512432323" />
     <state x="406" y="517" key="SettingsEditor/2560.-519.1440.2560/-2560.0.2560.1440/0.0.2560.1440@0.0.2560.1440" timestamp="1602417117096" />
     <state x="2789" y="400" key="SettingsEditor/2560.-519.1440.2560/-2560.0.2560.1440/0.0.2560.1440@2560.-519.1440.2560" timestamp="1602317873722" />
-    <state x="1569" y="456" key="Vcs.Push.Dialog.v2" timestamp="1602600695736">
+    <state x="1569" y="456" key="Vcs.Push.Dialog.v2" timestamp="1602683960218">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1569" y="456" key="Vcs.Push.Dialog.v2/-2560.0.2560.1440/2560.-519.1440.2560/0.0.2560.1440@0.0.2560.1440" timestamp="1602600695736" />
+    <state x="1569" y="456" key="Vcs.Push.Dialog.v2/-2560.0.2560.1440/2560.-519.1440.2560/0.0.2560.1440@0.0.2560.1440" timestamp="1602683960218" />
     <state x="1569" y="456" key="Vcs.Push.Dialog.v2/2560.-519.1440.2560/-2560.0.2560.1440/0.0.2560.1440@0.0.2560.1440" timestamp="1602428344368" />
     <state x="2560" y="-519" width="1440" height="2560" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1602317844407">
       <screen x="2560" y="-519" width="1440" height="2560" />
