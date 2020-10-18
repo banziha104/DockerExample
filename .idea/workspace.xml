@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f38c164b-3c4e-47bc-902c-35d9a1ec1c0b" name="Default" comment="레플리카셋 추가">
-      <change afterPath="$PROJECT_DIR$/markdown/ink8s/Deployment.md" afterDir="false" />
+    <list default="true" id="f38c164b-3c4e-47bc-902c-35d9a1ec1c0b" name="Default" comment="디플로이추가">
+      <change afterPath="$PROJECT_DIR$/markdown/ink8s/Namespaces.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/markdown/ink8s/yamls/test.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/ink8s/yamls/test.yaml" afterDir="false" />
     </list>
@@ -142,7 +142,7 @@
       <workItem from="1602398286212" duration="7000" />
       <workItem from="1602398326193" duration="6053000" />
       <workItem from="1602506473072" duration="3105000" />
-      <workItem from="1602592628758" duration="12036000" />
+      <workItem from="1602592628758" duration="12955000" />
     </task>
     <task id="LOCAL-00001" summary="add Install">
       <created>1519792605394</created>
@@ -354,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603009136415</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="디플로이추가">
+      <created>1603013710285</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1603013710285</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,13 +393,18 @@
     <MESSAGE value="add Kubernetes Basic" />
     <MESSAGE value="add Kubernetes Basic₩" />
     <MESSAGE value="레플리카셋 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="레플리카셋 추가" />
+    <MESSAGE value="디플로이추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="디플로이추가" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1512" y="206" key="CommitChangelistDialog2" timestamp="1603009136324">
+    <state x="1654" y="520" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603013724376">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1512" y="206" key="CommitChangelistDialog2/-2560.0.2560.1440/2560.-519.1440.2560/0.0.2560.1440@0.0.2560.1440" timestamp="1603009136324" />
+    <state x="1654" y="520" key="#com.intellij.fileTypes.FileTypeChooser/-2560.0.2560.1440/2560.-519.1440.2560/0.0.2560.1440@0.0.2560.1440" timestamp="1603013724376" />
+    <state x="1512" y="206" key="CommitChangelistDialog2" timestamp="1603013710206">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1512" y="206" key="CommitChangelistDialog2/-2560.0.2560.1440/2560.-519.1440.2560/0.0.2560.1440@0.0.2560.1440" timestamp="1603013710206" />
     <state x="1512" y="206" key="CommitChangelistDialog2/2560.-519.1440.2560/-2560.0.2560.1440/0.0.2560.1440@0.0.2560.1440" timestamp="1602428068309" />
     <state x="406" y="517" key="SettingsEditor" timestamp="1602512432323">
       <screen x="0" y="0" width="2560" height="1440" />
@@ -400,14 +412,14 @@
     <state x="406" y="517" key="SettingsEditor/-2560.0.2560.1440/2560.-519.1440.2560/0.0.2560.1440@0.0.2560.1440" timestamp="1602512432323" />
     <state x="406" y="517" key="SettingsEditor/2560.-519.1440.2560/-2560.0.2560.1440/0.0.2560.1440@0.0.2560.1440" timestamp="1602417117096" />
     <state x="2789" y="400" key="SettingsEditor/2560.-519.1440.2560/-2560.0.2560.1440/0.0.2560.1440@2560.-519.1440.2560" timestamp="1602317873722" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1603010642549">
+    <state width="500" height="445" key="SwitcherDM" timestamp="1603014989558">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/-2560.0.2560.1440/2560.-519.1440.2560/0.0.2560.1440@0.0.2560.1440" timestamp="1603010642549" />
-    <state x="1569" y="456" key="Vcs.Push.Dialog.v2" timestamp="1603009137763">
+    <state width="500" height="445" key="SwitcherDM/-2560.0.2560.1440/2560.-519.1440.2560/0.0.2560.1440@0.0.2560.1440" timestamp="1603014989558" />
+    <state x="1569" y="456" key="Vcs.Push.Dialog.v2" timestamp="1603013712367">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1569" y="456" key="Vcs.Push.Dialog.v2/-2560.0.2560.1440/2560.-519.1440.2560/0.0.2560.1440@0.0.2560.1440" timestamp="1603009137763" />
+    <state x="1569" y="456" key="Vcs.Push.Dialog.v2/-2560.0.2560.1440/2560.-519.1440.2560/0.0.2560.1440@0.0.2560.1440" timestamp="1603013712367" />
     <state x="1569" y="456" key="Vcs.Push.Dialog.v2/2560.-519.1440.2560/-2560.0.2560.1440/0.0.2560.1440@0.0.2560.1440" timestamp="1602428344368" />
     <state x="2560" y="-519" width="1440" height="2560" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1602317844407">
       <screen x="2560" y="-519" width="1440" height="2560" />
