@@ -1,20 +1,21 @@
 apiVersion: apps/v1
-kind: ReplicaSet
+kind: Deployment
 metadata:
-  name: rs-nginx
+  name: deploy-jenkins
+  labels:
+    app: jenkins-test
 spec:
-  # modify replicas according to your case
   replicas: 3
   selector:
     matchLabels:
-      app: rs-nginx
+      app: jenkins-test
   template:
     metadata:
       labels:
-        app: rs-nginx
+        app: jenkins-test
     spec:
       containers:
-        - name: nginx
-          image: nginx
+        - name: jenkins
+          image: jenkins
           ports:
-            - containerPort: 80
+            - containerPort: 8080
