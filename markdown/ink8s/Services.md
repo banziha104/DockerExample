@@ -26,11 +26,8 @@ kubectl create -f http-go-svc.yaml # 그러나 대부분 yaml로 만듬
     - 서비스 yaml 파일을 작성
     - type에 NodePort를 지정
     - 30000-32767 포트만 사용가능
-    
-
-```shell script
-
-```
+   
+- 노드포트 
 
 ```yaml
 apiVersion: v1
@@ -45,5 +42,23 @@ spec:
     - protocol: TCP
       port: 80 # 서비스의 포트
       targetPort: 8080 # 포드의 포트
-      nodePort: 30001 # 최종적으로 서비스되는 포트 
+      nodePort: 30001 # 최종적으로 서비스되는 포트
 ```
+
+- 로드밸런서 
+
+```yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: http-go-lb
+spec:
+  type: LoadBalancer
+  selector:
+    run: http-go
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8080
+```
+
