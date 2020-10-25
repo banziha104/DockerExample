@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f38c164b-3c4e-47bc-902c-35d9a1ec1c0b" name="Default" comment="서비스 추가">
-      <change afterPath="$PROJECT_DIR$/markdown/ink8s/Ingress.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/markdown/ink8s/Network.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/markdown/ink8s/image/network1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/markdown/ink8s/image/network2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/markdown/ink8s/Services.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/ink8s/Services.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/ink8s/Deployment.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/ink8s/05_Deployment.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/ink8s/Ingress.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/ink8s/08_Ingress.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/ink8s/Kubernetes.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/ink8s/01_Kubernetes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/ink8s/Label.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/ink8s/03_Label.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/ink8s/Namespaces.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/ink8s/06_Namespaces.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/ink8s/Network.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/ink8s/09_Network.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/ink8s/Pod.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/ink8s/02_Pod.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/ink8s/Replica.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/ink8s/04_Replica.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/ink8s/Services.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/ink8s/07_Services.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,9 +61,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/iyeongjun/Project/WbPro/DockerExample/markdown/fcmarkdown/2week/Vagrant.md&#10;1ww&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
-    <property name="javascript.nodejs.core.library.typings.version" value="12.12.67" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.19.1" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -154,6 +165,11 @@
       <workItem from="1603195565891" duration="162000" />
       <workItem from="1603523549463" duration="5010000" />
       <workItem from="1603538085018" duration="725000" />
+      <workItem from="1603539588236" duration="458000" />
+      <workItem from="1603542569184" duration="75000" />
+      <workItem from="1603542657862" duration="52000" />
+      <workItem from="1603542799201" duration="9000" />
+      <workItem from="1603542956530" duration="2605000" />
     </task>
     <task id="LOCAL-00001" summary="add Install">
       <created>1519792605394</created>
@@ -428,6 +444,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1654" y="520" key="#com.intellij.fileTypes.FileTypeChooser/-2560.0.2560.1440/2560.-519.1440.2560/0.0.2560.1440@0.0.2560.1440" timestamp="1603013724376" />
+    <state x="1018" y="593" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1603542707429">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1018" y="593" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/-2560.25.2560.1415/2560.-494.1440.2535/0.0.2560.1440@0.0.2560.1440" timestamp="1603542707429" />
     <state x="1512" y="206" key="CommitChangelistDialog2" timestamp="1603028372006">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
