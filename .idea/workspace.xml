@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f38c164b-3c4e-47bc-902c-35d9a1ec1c0b" name="Default" comment="서비스 추가">
+    <list default="true" id="f38c164b-3c4e-47bc-902c-35d9a1ec1c0b" name="Default" comment="볼륨 추가">
+      <change afterPath="$PROJECT_DIR$/markdown/ink8s/11_Scheduling.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/markdown/ink8s/Deployment.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/ink8s/05_Deployment.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/markdown/ink8s/Ingress.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/ink8s/08_Ingress.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/markdown/ink8s/Kubernetes.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/ink8s/01_Kubernetes.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/markdown/ink8s/Label.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/ink8s/03_Label.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/markdown/ink8s/Namespaces.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/ink8s/06_Namespaces.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/markdown/ink8s/Network.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/ink8s/09_Network.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/markdown/ink8s/Pod.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/ink8s/02_Pod.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/markdown/ink8s/Replica.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/ink8s/04_Replica.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/markdown/ink8s/Services.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/ink8s/07_Services.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/ink8s/10_Volume.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/ink8s/10_Volume.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/ink8s/yamls/go-http-pod.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/ink8s/yamls/go-http-pod.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +163,9 @@
       <workItem from="1603542569184" duration="75000" />
       <workItem from="1603542657862" duration="52000" />
       <workItem from="1603542799201" duration="9000" />
-      <workItem from="1603542956530" duration="2605000" />
+      <workItem from="1603542956530" duration="7048000" />
+      <workItem from="1603890007920" duration="203000" />
+      <workItem from="1603890311574" duration="1413000" />
     </task>
     <task id="LOCAL-00001" summary="add Install">
       <created>1519792605394</created>
@@ -402,7 +398,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603028372087</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="볼륨 추가">
+      <created>1603614070852</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1603614070852</updated>
+    </task>
+    <task id="LOCAL-00035" summary="볼륨 추가">
+      <created>1603614151375</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1603614151375</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -437,46 +447,8 @@
     <MESSAGE value="디플로이추가" />
     <MESSAGE value="네임스페이스 추가" />
     <MESSAGE value="서비스 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="서비스 추가" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="1654" y="520" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603013724376">
-      <screen x="0" y="0" width="2560" height="1440" />
-    </state>
-    <state x="1654" y="520" key="#com.intellij.fileTypes.FileTypeChooser/-2560.0.2560.1440/2560.-519.1440.2560/0.0.2560.1440@0.0.2560.1440" timestamp="1603013724376" />
-    <state x="1018" y="593" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1603542707429">
-      <screen x="0" y="0" width="2560" height="1440" />
-    </state>
-    <state x="1018" y="593" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/-2560.25.2560.1415/2560.-494.1440.2535/0.0.2560.1440@0.0.2560.1440" timestamp="1603542707429" />
-    <state x="1512" y="206" key="CommitChangelistDialog2" timestamp="1603028372006">
-      <screen x="0" y="0" width="2560" height="1440" />
-    </state>
-    <state x="1512" y="206" key="CommitChangelistDialog2/-2560.0.2560.1440/2560.-519.1440.2560/0.0.2560.1440@0.0.2560.1440" timestamp="1603028372006" />
-    <state x="1512" y="206" key="CommitChangelistDialog2/2560.-519.1440.2560/-2560.0.2560.1440/0.0.2560.1440@0.0.2560.1440" timestamp="1602428068309" />
-    <state x="406" y="517" key="SettingsEditor" timestamp="1602512432323">
-      <screen x="0" y="0" width="2560" height="1440" />
-    </state>
-    <state x="406" y="517" key="SettingsEditor/-2560.0.2560.1440/2560.-519.1440.2560/0.0.2560.1440@0.0.2560.1440" timestamp="1602512432323" />
-    <state x="406" y="517" key="SettingsEditor/2560.-519.1440.2560/-2560.0.2560.1440/0.0.2560.1440@0.0.2560.1440" timestamp="1602417117096" />
-    <state x="2789" y="400" key="SettingsEditor/2560.-519.1440.2560/-2560.0.2560.1440/0.0.2560.1440@2560.-519.1440.2560" timestamp="1602317873722" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1603538459182">
-      <screen x="0" y="0" width="2560" height="1440" />
-    </state>
-    <state width="500" height="445" key="SwitcherDM/-2560.0.2560.1440/2560.-519.1440.2560/0.0.2560.1440@0.0.2560.1440" timestamp="1603538459182" />
-    <state x="1569" y="456" key="Vcs.Push.Dialog.v2" timestamp="1603028373514">
-      <screen x="0" y="0" width="2560" height="1440" />
-    </state>
-    <state x="1569" y="456" key="Vcs.Push.Dialog.v2/-2560.0.2560.1440/2560.-519.1440.2560/0.0.2560.1440@0.0.2560.1440" timestamp="1603028373514" />
-    <state x="1569" y="456" key="Vcs.Push.Dialog.v2/2560.-519.1440.2560/-2560.0.2560.1440/0.0.2560.1440@0.0.2560.1440" timestamp="1602428344368" />
-    <state x="2560" y="-519" width="1440" height="2560" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1602317844407">
-      <screen x="2560" y="-519" width="1440" height="2560" />
-    </state>
-    <state x="2560" y="-519" width="1440" height="2560" key="org.intellij.images.editor.actions.BackgroundImageDialog/2560.-519.1440.2560/-2560.0.2560.1440/0.0.2560.1440@2560.-519.1440.2560" timestamp="1602317844407" />
-    <state x="684" y="344" width="1192" height="381" key="search.everywhere.popup" timestamp="1603026756648">
-      <screen x="0" y="0" width="2560" height="1440" />
-    </state>
-    <state x="684" y="344" width="1192" height="381" key="search.everywhere.popup/-2560.0.2560.1440/2560.-519.1440.2560/0.0.2560.1440@0.0.2560.1440" timestamp="1603026756648" />
-    <state x="2945" y="92" width="670" height="676" key="search.everywhere.popup/2560.-519.1440.2560/-2560.0.2560.1440/0.0.2560.1440@2560.-519.1440.2560" timestamp="1602317822156" />
+    <MESSAGE value="볼륨 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="볼륨 추가" />
   </component>
   <component name="masterDetails">
     <states>
