@@ -104,3 +104,21 @@ spec:
 <br>
 
 # 초기 명령어 및 아규먼트 전달과 실행 
+
+```yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: busybox
+  labels:
+    app: myapp
+spec:
+  containers:
+  env:
+    - name: MESSAGE
+      value: "hello world"
+  - name: myapp-container
+    image: busybox
+    command: ['sh', '-c', 'echo Hello Kubernetes! && sleep 3600']
+    args: ["HOSTNAME", "$(MESSAGE)"]
+```
