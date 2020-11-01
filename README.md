@@ -13,29 +13,29 @@
 
 https://github.com/banziha104/DockerExample/blob/master/markdown/ink8s/01_Kubernetes.md
 
-- ###[설치 및 세팅](https://github.com/banziha104/DockerExample/blob/master/markdown/ink8s/01_Kubernetes.md)
+- ### [설치 및 세팅](https://github.com/banziha104/DockerExample/blob/master/markdown/ink8s/01_Kubernetes.md)
 
-- ###[Pod](https://github.com/banziha104/DockerExample/blob/master/markdown/ink8s/02_Pod.md)
+- ### [Pod](https://github.com/banziha104/DockerExample/blob/master/markdown/ink8s/02_Pod.md)
   
-- ###[Label & Selector](https://github.com/banziha104/DockerExample/blob/master/markdown/ink8s/03_Label.md)
+- ### [Label & Selector](https://github.com/banziha104/DockerExample/blob/master/markdown/ink8s/03_Label.md)
   
-- ###[Replica](https://github.com/banziha104/DockerExample/blob/master/markdown/ink8s/04_Replica.md)
+- ### [Replica](https://github.com/banziha104/DockerExample/blob/master/markdown/ink8s/04_Replica.md)
   
-- ###[Deployment](https://github.com/banziha104/DockerExample/blob/master/markdown/ink8s/05_Deployment.md)
+- ### [Deployment](https://github.com/banziha104/DockerExample/blob/master/markdown/ink8s/05_Deployment.md)
   
-- ###[Namespaces](https://github.com/banziha104/DockerExample/blob/master/markdown/ink8s/06_Namespaces.md)
+- ### [Namespaces](https://github.com/banziha104/DockerExample/blob/master/markdown/ink8s/06_Namespaces.md)
   
-- ###[Services](https://github.com/banziha104/DockerExample/blob/master/markdown/ink8s/07_Services.md)
+- ### [Services](https://github.com/banziha104/DockerExample/blob/master/markdown/ink8s/07_Services.md)
   
-- ###[Ingress](https://github.com/banziha104/DockerExample/blob/master/markdown/ink8s/08_Ingress.md)
+- ### [Ingress](https://github.com/banziha104/DockerExample/blob/master/markdown/ink8s/08_Ingress.md)
   
-- ###[Network](https://github.com/banziha104/DockerExample/blob/master/markdown/ink8s/09_Network.md)
+- ### [Network](https://github.com/banziha104/DockerExample/blob/master/markdown/ink8s/09_Network.md)
   
-- ###[Volume](https://github.com/banziha104/DockerExample/blob/master/markdown/ink8s/10_Volume.md)
+- ### [Volume](https://github.com/banziha104/DockerExample/blob/master/markdown/ink8s/10_Volume.md)
   
-- ###[Config](https://github.com/banziha104/DockerExample/blob/master/markdown/ink8s/11_Config.md)
+- ### [Config](https://github.com/banziha104/DockerExample/blob/master/markdown/ink8s/11_Config.md)
   
-- ###[Scheduling](https://github.com/banziha104/DockerExample/blob/master/markdown/ink8s/12_Scheduling.md)
+- ### [Scheduling](https://github.com/banziha104/DockerExample/blob/master/markdown/ink8s/12_Scheduling.md)
   
 
 
@@ -87,9 +87,3 @@ EXPOSE 443
 
 
 <br>
-
-# 쿠버네티스
-
-- ### [설치](https://github.com/banziha104/DockerExample/blob/master/markdown/k8s/Install.md)
-
-- ### [기본](https://github.com/banziha104/DockerExample/blob/master/markdown/k8s/Basic.md)
