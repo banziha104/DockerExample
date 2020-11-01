@@ -1,1 +1,14 @@
-k
+apiVersion: v1
+  kind: ResourceQuota
+  metadata:
+    name: pods-low
+  spec:
+    hard:
+      cpu: "5"
+      memory: 10Gi
+      pods: "10"
+    scopeSelector:
+      matchExpressions:
+        - operator: In
+          scopeName: PriorityClass
+          values: [ "low" ]
