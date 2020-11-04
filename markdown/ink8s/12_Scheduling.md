@@ -243,3 +243,38 @@ spec:
 <br>
 
 # 멀티플 스케줄러
+
+- 기본 스케줄러가 사용자의 필요에 맞지 않으면 사용자 고유의 스케줄러를 구현 가능
+- 기본 스케줄러와 함께 여러 스케줄러를 동시에 실행 가능
+- 각 포드에 사용할 스케줄러를 지정하는 방식도 가능
+
+<br>
+
+# 오토 스케일링 HPA
+
+- HPA: 포드 자체를 복제하여 처리할 수 있는 포드의 개수를 늘리는 방법
+- VPA: 리소스를 증가시켜 포드의 사용 가능한 리소스를 늘리는 방법
+- CA: 번외로 클러스터 자체를 늘리는 방법
+
+```shell
+
+# hpa
+kubectl autoscale deployment my-app --max 6 --min 4 --cpu-percent 50
+
+```
+
+```yaml
+apiVersion: autoscaling/v1
+  kind: HorizontalPodAutoscaler
+  metadata:
+    name: myapp-hpa
+    namespace: default
+  spec:
+    maxReplicas: 10
+    minReplicas: 1
+    scaleTargetRef:
+      apiVersion: extensions/v1beta1
+      kind: Deploymanet
+      name: myapp
+    targetCPUUtilizationPerctentage: 30
+```
