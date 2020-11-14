@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f38c164b-3c4e-47bc-902c-35d9a1ec1c0b" name="Default" comment="initContainer 추가">
-      <change afterPath="$PROJECT_DIR$/markdown/ink8s/13_LoggingAndMonitoring.md" afterDir="false" />
+    <list default="true" id="f38c164b-3c4e-47bc-902c-35d9a1ec1c0b" name="Default" comment="프로메테우스 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/markdown/ink8s/12_Scheduling.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/ink8s/12_Scheduling.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/markdown/ink8s/yamls/test.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/ink8s/yamls/test.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/ink8s/13_LoggingAndMonitoring.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/ink8s/13_LoggingAndMonitoring.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +166,8 @@
       <workItem from="1603890311574" duration="1736000" />
       <workItem from="1604122376538" duration="2587000" />
       <workItem from="1604151240661" duration="9685000" />
-      <workItem from="1604488568044" duration="2836000" />
+      <workItem from="1604488568044" duration="3655000" />
+      <workItem from="1605350210520" duration="2958000" />
     </task>
     <task id="LOCAL-00001" summary="add Install">
       <created>1519792605394</created>
@@ -457,7 +456,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604222225300</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="프로메테우스 추가">
+      <created>1604494090739</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1604494090739</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -496,7 +502,8 @@
     <MESSAGE value="ConfigMap 추가" />
     <MESSAGE value="README 링크수정" />
     <MESSAGE value="initContainer 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="initContainer 추가" />
+    <MESSAGE value="프로메테우스 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="프로메테우스 추가" />
   </component>
   <component name="masterDetails">
     <states>

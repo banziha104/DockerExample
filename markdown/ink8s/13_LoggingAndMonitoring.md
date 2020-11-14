@@ -68,11 +68,38 @@ kubectl describe secret -n kubernetes-dashboard kubernetes-dashboard-<id>
     - 프로메테우스 서버에서 발생하는 경고를 수신하고 ConfigMap에 지정된 구성에 따라 처리
   - Granfana StatefulSet
     - 프로메테우스에 메트릭에 대한 쿼리를 위한 사용자 인터페이스를 제공하고 사전 구성된 대시 보드의 메트릭을 시각화
-
-```shell
-
-```
-
+  - 설치 
+    1. 클러스터 생성
+    2. 마켓플레이스 
+    3. Prometheus & Granfana 생성
+  
 <br>
 
 # 헬름 
+
+- EKF
+  - E : Elasticsearch, 데이터베이스 & 검색엔진
+  - L : Logstash, 데이터 수집기 | F : Fluentd 
+  - K : Kibana 그라파나의 역할, 대시보드 
+- 헬름
+  - 쿠버네티스의 패키지매니저 같은 느낌
+  
+```shell
+# 레파지 토리추가
+helm repo add akomljen-charts \
+    https://raw.githubusercontent.com/komljen/helm-charts/master/charts/
+
+kubectl create ns logging
+
+
+helm install es-operator \
+    --namespace logging \
+    akomljen-charts/elasticsearch-operator 
+
+kubectl get CustomResourceDefinition # 정의된 리소스가 잘 추가됐는지 확인
+
+# efk 설치
+helm install efk \
+    --namespace logging \
+    akomljen-charts/efk
+```
